@@ -1,1 +1,56 @@
+body {
+    background-image: url("https://www.vampiretools.com/wp-content/uploads/2017/10/rockpaperscissors.jpg");
+    /*background-size:cover;*/
+    background-repeat: no-repeat;
+    background-position: right top;
+    width:50%;
+    margin:auto;
+    height:auto;
+    
+    
+    
+}
+#youWon, #youLost, #Draw{
+    display:none;
+}
+#heading{
+    font-family: 'Frijole', cursive;
+    font-size:50px;
+    color:purple;
+}
+h2{
+     font-family: 'Frijole', cursive;
+    font-size:30px;
+    color:purple;
+}
+h1{
+    font-family: 'Frijole', cursive;
+    font-size:100px;
+    color:black;
+    text-align: center;
+}
 
+/*.counter{*/
+/*    font-family: 'Anton', sans-serif;*/
+/*    font-size:42px;*/
+/*    text-align: center;*/
+/*    width:40px;*/
+/*}*/
+.VS{
+    font-family: 'Frijole', cursive;
+    font-size:70px;
+}
+button{
+    font-family: 'Frijole', cursive;
+}
+.again{
+    margin:auto;
+}
+#spacer{
+    height:50px;
+}
+@media(max-width: 768px) {
+    #heading {
+        font-size: 100px;
+    }
+}
